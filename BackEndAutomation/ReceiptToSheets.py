@@ -12,9 +12,8 @@ from googleapiclient.errors import HttpError
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
 
 # The ID and range of a sample spreadsheet.
-SAMPLE_SPREADSHEET_ID = '1j1477VfamjJD__i7Lx_b98RP78dPk92Om21v_unKP60'
-SAMPLE_RANGE_NAME = 'Receipt Automation!A2:E'
-
+SAMPLE_SPREADSHEET_ID = '1j1477VfamjJD__i7Lx_b98RP78dPk92Om21v_unKP60' # sheet id
+SAMPLE_RANGE_NAME = 'Receipt Automation!A2:E' #sheet name and data range
 
 def main():
     """Shows basic usage of the Sheets API.
